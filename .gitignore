@@ -1,0 +1,13 @@
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+.env
+.venv/
+venv/
+node_modules/
+frontend-partner-main/node_modules/
+.DS_Store
+Thumbs.db
