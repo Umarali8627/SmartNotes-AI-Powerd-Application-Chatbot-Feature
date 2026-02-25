@@ -9,6 +9,7 @@ chat_router = APIRouter(prefix="/chatbot")
 
 llm = ChatGroq(model="llama-3.3-70b-versatile", api_key=settings.GROQ_API_KEY, temperature=0.7,max_tokens=500)
 
+
 prompt = """
 You are Smart Notes Assistant for students.
 
